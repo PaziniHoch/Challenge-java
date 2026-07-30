@@ -1,8 +1,5 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -16,6 +13,8 @@ public class Main {
 
         int pontuacao = detector.calcularPontuacaoRisco(emailSuspeito);
         boolean suspeito = detector.analisarEmail(emailSuspeito);
+        String Visual = detector.preprocessarTexto(emailSuspeito);
+        System.out.println(Visual);
 
         System.out.println("Pontuação de risco: " + pontuacao);
         System.out.println("Com base na pontuação atingida, avaliamos que " + (suspeito ? "tem grandes chances de ser golpe!" : "tem poucas chances de ser golpe."));
