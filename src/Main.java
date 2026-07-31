@@ -10,11 +10,10 @@ public class Main {
         ScammerDetector detector = new ScammerDetector();
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("=========================================\n" +
-                "             SCAMMER DETECTOR\n" +
-                "=========================================\n" +
-                "\n" +
-                "Cole abaixo a mensagem ou e-mail que deseja verificar.");
+        System.out.println("=========================================");
+        System.out.println("             SCAMMER DETECTOR");
+        System.out.println("=========================================");
+        System.out.println("\nCole abaixo a mensagem ou e-mail que deseja verificar.");
 
         String emailSuspeito = scan.nextLine();
         System.out.println("Estamos verificando, aguarde...");
