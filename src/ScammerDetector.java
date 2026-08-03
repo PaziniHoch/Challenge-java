@@ -57,7 +57,6 @@ public class ScammerDetector {
         palavrasChave.put("vencedor", 1);
     }
 
-        // ======== DEFINIR LIMITE =======
     private static final int LIMIAR_SUSPEITO = 4;
 
     public boolean analisarEmail(String textoEmail) {
