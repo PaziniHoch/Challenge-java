@@ -140,7 +140,7 @@ Durante o desenvolvimento do projeto, utilizamos o **Miro** para organizar as *g
 
 
 🔗 **Link do quadro no Miro:** [Adicionar link aqui](#)
-
+![Challenge-Golpes.jpg](docs/Challenge-Golpes.jpg)
 
 
 **Principais guide questions discutidas:**
