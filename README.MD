@@ -15,9 +15,10 @@
 - [Funcionalidades](#-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Funciona](#-como-funciona)
-- [Instalação](#-instalação)
 - [Como Usar](#-como-usar)
 - [Exemplo de Execução](#-exemplo-de-execução)
+- [Apresentação do Projeto](#-apresentação-do-projeto)
+- [Guide Questions (Miro)](#-guide-questions-miro)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Status do Projeto](#-status-do-projeto)
 - [Roadmap](#-roadmap)
@@ -61,51 +62,6 @@ Ao final da análise, o sistema informa se a mensagem é **suspeita de golpe** e
 3. O sistema percorre um dicionário de palavras-chave (`PalavrasChave.java`), somando a pontuação de cada termo encontrado.
 4. Se a pontuação total atingir o limiar definido (`LIMIAR_SUSPEITO`), a mensagem é classificada como **suspeita de golpe**.
 5. O usuário pode optar por visualizar recomendações de segurança.
-
----
-
-## 🚀 Instalação
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina:
-
-- [Java JDK 17+](https://www.oracle.com/java/technologies/downloads/)
-- [Git](https://git-scm.com/)
-
-Você pode verificar se o Java está instalado corretamente rodando:
-
-```bash
-java -version
-```
-
-### Passo a passo
-
-1. **Clone o repositório**
-
-```bash
-git clone https://github.com/PaziniHoch/Chanllenge-java.git
-```
-
-2. **Acesse a pasta do projeto**
-
-```bash
-cd Chanllenge-java
-```
-
-3. **Compile os arquivos Java**
-
-```bash
-javac Main.java ScammerDetector.java PalavrasChave.java
-```
-
-4. **Execute o programa**
-
-```bash
-java Main
-```
-
-> 💡 Se estiver usando uma IDE como IntelliJ IDEA, Eclipse ou VS Code, basta abrir o projeto e executar a classe `Main.java` diretamente.
 
 ---
 
@@ -159,6 +115,53 @@ Escolha uma opção: sim
 
 ---
 
+## 🎤 Apresentação do Projeto
+
+Confira abaixo a apresentação (5 slides) com uma visão geral do projeto, seus objetivos, funcionamento e resultados.
+
+<!--
+Substitua o link abaixo pelo link da sua apresentação (Google Slides, Canva, PowerPoint Online, etc.)
+ou adicione o arquivo .pptx/.pdf na pasta docs/ do repositório e ajuste o caminho.
+-->
+
+📎 **Link da apresentação:** [link aqui](#https://canva.link/l5n92kqmm45jgvu)
+
+📄 **Arquivo local:** `docs/Golpes Digitais - Challenge 2.pdf`
+
+| # | Slide           | Conteúdo |
+|---|-----------------|----------|
+| 1 | Capa            | Nome do projeto, integrantes e proposta |
+| 2 | Guide Questions | Contexto sobre golpes digitais e a motivação do projeto |
+| 3 | regras          | Como o Scammer Detector funciona (visão geral técnica) |
+| 4 | Demonstração    | Exemplo de execução e resultados obtidos |
+
+
+---
+
+## 🧠 Guide Questions (Miro)
+
+Durante o desenvolvimento do projeto, utilizamos o **Miro** para organizar as *guide questions* (perguntas norteadoras) que ajudaram a estruturar o problema, a solução e os próximos passos.
+
+<!--
+Substitua o link/imagem abaixo pelo print do quadro do Miro.
+Você pode adicionar a imagem em docs/ e referenciar o caminho local, por exemplo:
+![Guide Questions - Miro](docs/miro-guide-questions.png)
+-->
+
+🔗 **Link do quadro no Miro:** [Adicionar link aqui](#)
+
+![Guide Questions - Miro](docs/miro-guide-questions.png)
+
+**Principais guide questions discutidas:**
+
+- Qual problema estamos tentando resolver?
+- Quem é o público-alvo da solução?
+- Quais são os principais indícios de um golpe digital?
+- Como medir e comunicar o nível de risco ao usuário?
+- Quais melhorias futuras podem tornar a detecção mais precisa?
+
+---
+
 ## 📂 Estrutura do Projeto
 
 ```
@@ -166,6 +169,9 @@ Chanllenge-java/
 ├── Main.java              # Ponto de entrada da aplicação (interface via terminal)
 ├── ScammerDetector.java   # Lógica de análise e cálculo de pontuação de risco
 ├── PalavrasChave.java     # Dicionário de palavras-chave e seus pesos
+├── docs/
+│   ├── apresentacao-scammer-detector.pptx   # Apresentação do projeto (5 slides)
+│   └── miro-guide-questions.png             # Print do quadro Miro com as guide questions
 └── README.md              # Documentação do projeto
 ```
 
@@ -211,13 +217,13 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 Desenvolvido por **André  Pazini e Assis Pires Neto**
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- E-mail: seuemail@exemplo.com
+- GitHub: [@PaziniHoch](https://github.com/pazinihoch)
+- E-mail: pazinihoch@gmail.com
 - LinkedIn: [seu-perfil](https://linkedin.com/in/seu-perfil)
 
 - GitHub: [@Assis](https://github.com/lancelot)
-- E-mail: Assis Pires Neto
-- LinkedIn: [seu-perfil](https://linkedin.com/in/assispiresneto)
+- E-mail: assis.pires.netors@gmail.com
+- LinkedIn: [Assis pires Neto](https://linkedin.com/in/assispiresneto)
 
 ---
 
