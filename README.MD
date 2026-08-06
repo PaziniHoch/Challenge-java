@@ -83,7 +83,7 @@ Durante o desenvolvimento do projeto, utilizamos o **Miro** para organizar as *g
 
 
 
-🔗 **Link do quadro no Miro:** [link aqui](#https://miro.com/app/board/uXjVH4z2wwk=/?focusWidget=3458764678986210189)
+🔗 **Link do quadro no Miro:** [https://miro.com/app/board/uXjVH4z2wwk=/?focusWidget=3458764678986210189](https://miro.com/app/board/uXjVH4z2wwk=/?focusWidget=3458764678986210189)
 ![Challenge-Golpes.jpg](docs/Challenge-Golpes.jpg)
 
 
