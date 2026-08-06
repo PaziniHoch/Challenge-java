@@ -64,51 +64,6 @@ Ao final da análise, o sistema informa se a mensagem é **suspeita de golpe** e
 
 ---
 
-## 🚀 Instalação
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina:
-
-- [Java JDK 17+](https://www.oracle.com/java/technologies/downloads/)
-- [Git](https://git-scm.com/)
-
-Você pode verificar se o Java está instalado corretamente rodando:
-
-```bash
-java -version
-```
-
-### Passo a passo
-
-1. **Clone o repositório**
-
-```bash
-git clone https://github.com/PaziniHoch/Chanllenge-java.git
-```
-
-2. **Acesse a pasta do projeto**
-
-```bash
-cd Chanllenge-java
-```
-
-3. **Compile os arquivos Java**
-
-```bash
-javac Main.java ScammerDetector.java PalavrasChave.java
-```
-
-4. **Execute o programa**
-
-```bash
-java Main
-```
-
-> 💡 Se estiver usando uma IDE como IntelliJ IDEA, Eclipse ou VS Code, basta abrir o projeto e executar a classe `Main.java` diretamente.
-
----
-
 ## 🧑‍💻 Como Usar
 
 Ao iniciar o programa, você verá o seguinte menu:
