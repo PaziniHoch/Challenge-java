@@ -15,15 +15,9 @@
 - [Funcionalidades](#-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Funciona](#-como-funciona)
-- [Como Usar](#-como-usar)
-- [Exemplo de Execução](#-exemplo-de-execução)
 - [Apresentação do Projeto](#-apresentação-do-projeto)
 - [Guide Questions (Miro)](#-guide-questions-miro)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Status do Projeto](#-status-do-projeto)
-- [Roadmap](#-roadmap)
-- [Contribuindo](#-contribuindo)
-- [Licença](#-licença)
 - [Contato](#-contato)
 
 ---
@@ -62,56 +56,6 @@ Ao final da análise, o sistema informa se a mensagem é **suspeita de golpe** e
 3. O sistema percorre um dicionário de palavras-chave (`PalavrasChave.java`), somando a pontuação de cada termo encontrado.
 4. Se a pontuação total atingir o limiar definido (`LIMIAR_SUSPEITO`), a mensagem é classificada como **suspeita de golpe**.
 5. O usuário pode optar por visualizar recomendações de segurança.
-
----
-
-## 🧑‍💻 Como Usar
-
-Ao iniciar o programa, você verá o seguinte menu:
-
-```
-=========================================
-             SCAMMER DETECTOR
-=========================================
-
-Cole abaixo a mensagem ou e-mail que deseja verificar.
-```
-
-Basta colar o texto suspeito e pressionar **Enter**. O sistema exibirá a pontuação de risco e a classificação da mensagem, além de perguntar se você deseja visualizar recomendações de segurança.
-
----
-
-## 💻 Exemplo de Execução
-
-**Entrada:**
-
-```
-Sua conta foi invadida! Clique aqui para confirmar seus dados e evitar o bloqueio.
-```
-
-**Saída:**
-
-```
-Estamos verificando, aguarde...
-
-Pontuação de risco: 12
-Com base na pontuação atingida, avaliamos que este email é Suspeito de Golpe!
-
-Deseja receber recomendações de segurança?
-- Sim
-- Não
-Escolha uma opção: sim
-
-=========================================
-      RECOMENDAÇÕES DE SEGURANÇA
-=========================================
-✔ Não clique em links suspeitos.
-✔ Nunca informe códigos recebidos por SMS.
-✔ Confirme a informação pelo site oficial.
-✔ Verifique o remetente antes de responder.
-✔ Em caso de dúvida, ignore a mensagem.
-=========================================
-```
 
 ---
 
@@ -165,16 +109,6 @@ Chanllenge-java/
 │   └── miro-guide-questions.png             # Print do quadro Miro com as guide questions
 └── README.md              # Documentação do projeto
 ```
-
----
-
-
-## 🗺️ Roadmap
-
-- [ ] Suporte à leitura de arquivos `.txt` e `.eml`
-- [ ] Interface gráfica (GUI) ou versão web
-- [ ] Exportação de relatórios de análise
-- [ ] Ampliação da base de palavras-chave
 
 ---
 
