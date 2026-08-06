@@ -139,7 +139,7 @@ Durante o desenvolvimento do projeto, utilizamos o **Miro** para organizar as *g
 
 
 
-🔗 **Link do quadro no Miro:** [Adicionar link aqui](#)
+🔗 **Link do quadro no Miro:** [link aqui](#https://miro.com/app/board/uXjVH4z2wwk=/?focusWidget=3458764678986210189)
 ![Challenge-Golpes.jpg](docs/Challenge-Golpes.jpg)
 
 
@@ -168,13 +168,6 @@ Chanllenge-java/
 
 ---
 
-## 📌 Status do Projeto
-
-> 🚧 **Em desenvolvimento**
-
-O projeto está em constante evolução. Novas palavras-chave, melhorias na precisão da detecção e novas funcionalidades estão sendo planejadas.
-
----
 
 ## 🗺️ Roadmap
 
@@ -182,25 +175,6 @@ O projeto está em constante evolução. Novas palavras-chave, melhorias na prec
 - [ ] Interface gráfica (GUI) ou versão web
 - [ ] Exportação de relatórios de análise
 - [ ] Ampliação da base de palavras-chave
-- [ ] Testes automatizados (JUnit)
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são muito bem-vindas! Para contribuir:
-
-1. Faça um **fork** do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. Faça o **commit** das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Faça o **push** para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um **Pull Request**
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
