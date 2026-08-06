@@ -16,7 +16,17 @@ public class Main {
         System.out.println("\nCole abaixo a mensagem ou e-mail que deseja verificar.");
 
         String emailSuspeito = scan.nextLine();
-        System.out.println("Estamos verificando, aguarde...");
+        System.out.print("Estamos verificando, aguarde");
+
+        try {
+            for (int i = 0; i < 3; i++) {
+                Thread.sleep(1000);
+                System.out.print(".");
+            }
+            System.out.println("\n");
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
 
         int pontuacao = detector.calcularPontuacaoRisco(emailSuspeito);
         boolean suspeito = detector.analisarEmail(emailSuspeito);
@@ -24,9 +34,7 @@ public class Main {
         System.out.println("Pontuação de risco: " + pontuacao);
         System.out.println("Com base na pontuação atingida, avaliamos que " + (suspeito ? "este email é Suspeito de Golpe!" : "este email não é Suspeito."));
 
-
         String recomendacao;
-
         do {
             System.out.println("\nDeseja receber recomendações de segurança?");
             System.out.println("- Sim");
