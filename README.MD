@@ -166,13 +166,13 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 Desenvolvido por **André  Pazini e Assis Pires Neto**
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- E-mail: seuemail@exemplo.com
+- GitHub: [@PaziniHoch](https://github.com/pazinihoch)
+- E-mail: pazinihoch@gmail.com
 - LinkedIn: [seu-perfil](https://linkedin.com/in/seu-perfil)
 
 - GitHub: [@Assis](https://github.com/lancelot)
-- E-mail: Assis Pires Neto
-- LinkedIn: [seu-perfil](https://linkedin.com/in/assispiresneto)
+- E-mail: assis.pires.netors@gmail.com
+- LinkedIn: [Assis pires Neto](https://linkedin.com/in/assispiresneto)
 
 ---
 
