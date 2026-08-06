@@ -63,7 +63,7 @@ Ao final da análise, o sistema informa se a mensagem é **suspeita de golpe** e
 
 Confira abaixo a apresentação (7 slides) com uma visão geral do projeto, seus objetivos, funcionamento e resultados.
 
-📎 **Link da apresentação:** [link aqui](#https://canva.link/l5n92kqmm45jgvu)
+📎 **Link da apresentação:** [https://canva.link/l5n92kqmm45jgvu](https://canva.link/l5n92kqmm45jgvu)
 
 📄 **Arquivo local:** `docs/Golpes Digitais - Challenge 2.pdf`
 
