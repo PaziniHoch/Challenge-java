@@ -117,12 +117,7 @@ Escolha uma opção: sim
 
 ## 🎤 Apresentação do Projeto
 
-Confira abaixo a apresentação (5 slides) com uma visão geral do projeto, seus objetivos, funcionamento e resultados.
-
-<!--
-Substitua o link abaixo pelo link da sua apresentação (Google Slides, Canva, PowerPoint Online, etc.)
-ou adicione o arquivo .pptx/.pdf na pasta docs/ do repositório e ajuste o caminho.
--->
+Confira abaixo a apresentação (7 slides) com uma visão geral do projeto, seus objetivos, funcionamento e resultados.
 
 📎 **Link da apresentação:** [link aqui](#https://canva.link/l5n92kqmm45jgvu)
 
@@ -142,15 +137,11 @@ ou adicione o arquivo .pptx/.pdf na pasta docs/ do repositório e ajuste o camin
 
 Durante o desenvolvimento do projeto, utilizamos o **Miro** para organizar as *guide questions* (perguntas norteadoras) que ajudaram a estruturar o problema, a solução e os próximos passos.
 
-<!--
-Substitua o link/imagem abaixo pelo print do quadro do Miro.
-Você pode adicionar a imagem em docs/ e referenciar o caminho local, por exemplo:
-![Guide Questions - Miro](docs/miro-guide-questions.png)
--->
+
 
 🔗 **Link do quadro no Miro:** [Adicionar link aqui](#)
 
-![Guide Questions - Miro](docs/miro-guide-questions.png)
+
 
 **Principais guide questions discutidas:**
 
