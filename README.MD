@@ -118,7 +118,7 @@ Desenvolvido por **André  Pazini e Assis Pires Neto**
 
 - GitHub: [@PaziniHoch](https://github.com/pazinihoch)
 - E-mail: pazinihoch@gmail.com
-- LinkedIn: [seu-perfil](https://linkedin.com/in/seu-perfil)
+- LinkedIn: [André Pazini Hoch](https://www.linkedin.com/in/andr%C3%A9-pazini-hoch-836231209/)
 
 - GitHub: [@Assis](https://github.com/lancelot)
 - E-mail: assis.pires.netors@gmail.com
